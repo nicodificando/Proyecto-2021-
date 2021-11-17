@@ -1,0 +1,17 @@
+/*Tipografia para texto cuerpo*/
+@font-face{
+  font-family: "Shippori Antique";
+  src: url("https://fonts.google.com/specimen/Shippori+Antique?category=Serif,Sans+Serif#standard-styles");
+}
+
+/* Tipografia para titulos*/
+@font-face{
+    font-family: "Prata";
+    src: url("https://fonts.google.com/specimen/Prata?preview.text_type=custom&query=pra");
+  }
+
+  /*Tipografia para otros, o para algun texto especial*/
+  @font-face{
+    font-family: "Press Start 2P";
+    src: url("https://fonts.google.com/specimen/Press+Start+2P?preview.text_type=custom&query=Press+Start+2P");
+  }
