@@ -1,0 +1,41 @@
+*{
+    background-color: #DDFFBC;
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+}
+.boton a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid #91C788;
+    width: 400px;
+    height: 90px;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: auto;
+    border-radius: 55px;
+
+    background-color: #91C788;
+    color: #FFFFFF;
+    font-family: Verdana;
+    transition:1s;
+    font-size: 30px;
+}
+.boton a:hover {
+
+ background-color: #FFFFFF;
+ color: #91C788;
+ width: 450px;
+ 
+}
+
+img{
+    display:block;
+    margin:100px;
+    float: left;
+    }
+table{
+    border: 10px;
+}
