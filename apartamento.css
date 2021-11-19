@@ -1,0 +1,148 @@
+.ventana{
+    border: 1px white;
+    width: 25%;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 22px;
+    position: absolute;
+    left: 500px;
+    top: 25%;
+    display: none;
+    background-color:#91C788;
+   
+}
+
+.botonCerrar{
+    text-align: right;
+    display: none;
+    background-color:#91C788;
+
+}
+
+
+.ventana p{
+    background-color:#91C788;
+    font-size: 20px;
+    font-family: "prata";
+}
+
+.ventana label{
+    background-color:#91C788 ;
+}
+ form {
+    background-color:#91C788 ;
+}
+
+.botonCerrar img{
+    background-color:#91C788;
+}
+
+*{ 
+    background-color: #DDFFBC;
+
+
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    color: black;
+    float: left;
+    
+}
+
+p{
+    text-align:center;
+    font-family: Verdana;
+    font-size: 20px;
+    color: black;
+    display: block;
+    align-items: center;
+}
+
+
+#contenedor a{
+    display:block;
+    text-decoration: none;
+    border: 1px solid #91C788;
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    color: black;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    padding: 30px;
+    margin-right: auto;
+    border-radius: 40px;
+    background-color: #91C788;
+    transition: 1s;
+
+}
+
+#contenedor a:hover{
+    background-color: white;
+    color: #91C788;
+    width: 350px;
+}
+.imgapartamento img {
+    display: block;
+    float: right;
+    margin: 100px;
+    width: 280px;
+}
+
+
+.iconT{
+    float: center;
+    width: 40pt;
+    height: 50pt;
+    display: right;
+    
+    
+}
+
+.slider{
+    display: right;
+    width: 30%;
+    margin: right;
+    margin: 2.5%;
+    overflow:hidden;
+    float: right;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: step-start;
+}
+
+.slider li{
+    width: 150%;
+    list-style: none; 
+}
+
+.slider img{
+    width: 130%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    75% {margin-left: -200%;}
+
+    80% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+    
+    105% {margin-left: -400%;}
+    120% {margin-left: -400%;}
+}
