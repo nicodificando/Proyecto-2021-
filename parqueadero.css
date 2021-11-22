@@ -1,0 +1,456 @@
+*{
+    background-color: #DDFFBC;
+}
+h1{
+    text-align: center;
+    font-family: "Prata";
+    font-size: 45px;
+}
+.contenedor .botonprincipal {
+	width: 500px;
+	height: 100px;
+	line-height: 40px;
+	border: 1px solid #91C788;
+	color: #FFFFFF;
+	background: #91C788;
+	border-radius: 35px;
+	font-family: "prata";
+	font-size: 40px;
+	cursor: pointer;
+    transition: 1s;
+    margin-left: 150px;
+    position: relative;
+    top: 100px;
+    
+}
+
+.contenedor .botonprincipal:hover {
+    background-color: #FFFFFF;
+    color: #91C788;
+}
+  
+
+img{
+    display:block;
+    margin:100px;
+    float: left;
+    }
+
+.fondo{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.fondo.active{
+    visibility: visible;
+}
+.ventana{
+    background: #DDFFBC;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+    border-radius: 15px;
+    font-family: "prata";
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+
+    transition: 1s ease all;
+    opacity: 0;
+
+
+}
+
+.cerrar-ventana{
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+    text-align: right;
+
+    transition: 1s;
+}
+
+.cerrar-ventana:hover{
+    color: red;
+    
+}
+
+.ventana h3{
+    font-size: 36px;
+    font-family: "prata";
+    margin-bottom: 50px;
+}
+
+
+.ventana form .formulario input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+    background: white;
+    border-radius: 10px;
+}
+
+.ventana form .submit{
+    padding: 0px 50px;
+    height: 45px;
+    border-radius: 10px;
+    background: #91C788;
+    color: white;
+    font-family: "prata";
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    
+
+}
+.ventana form .submit:hover{
+    background-color: #75db63;
+}
+
+.ventana.active  {opacity: 1;}
+
+/*Buscar boton*/
+
+.contenedor2 .botonprincipal2 {
+	width: 500px;
+	height: 100px;
+	line-height: 40px;
+	border: 1px solid #91C788;
+	color: #FFFFFF;
+	background: #91C788;
+	border-radius: 35px;
+	font-family: "prata";
+	font-size: 40px;
+	cursor: pointer;
+    transition: 1s;
+    margin-left: 150px;
+    position: relative;
+    top: 100px;
+    
+}
+
+.contenedor2 .botonprincipal2:hover {
+    background-color: #FFFFFF;
+    color: #91C788;
+}
+
+.fondo2{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.fondo2.active{
+    visibility: visible;
+}
+.ventana2{
+    background: #DDFFBC;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+    border-radius: 15px;
+    font-family: "prata";
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+
+    transition: 1s ease all;
+    opacity: 0;
+
+
+}
+
+.cerrar-ventana2{
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+    text-align: right;
+
+    transition: 1s;
+}
+
+.cerrar-ventana2:hover{
+    color: red;
+    
+}
+
+.ventana2 h3{
+    font-size: 36px;
+    font-family: "prata";
+    margin-bottom: 50px;
+}
+
+
+.ventana2 form .formulario2 input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+    background: white;
+    border-radius: 10px;
+}
+
+.ventana2 form .submit2{
+    padding: 0px 50px;
+    height: 45px;
+    border-radius: 10px;
+    background: #91C788;
+    color: white;
+    font-family: "prata";
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    
+
+}
+.ventana2 form .submit2:hover{
+    background-color: #75db63;
+}
+
+.ventana2.active  {opacity: 1;}
+
+/*modificar boton*/
+  
+.contenedor3 .botonprincipal3 {
+	width: 500px;
+	height: 100px;
+	line-height: 40px;
+	border: 1px solid #91C788;
+	color: #FFFFFF;
+	background: #91C788;
+	border-radius: 35px;
+	font-family: "prata";
+	font-size: 40px;
+	cursor: pointer;
+    transition: 1s;
+    margin-left: 150px;
+    position: relative;
+    top: 100px;
+    
+}
+
+.contenedor3 .botonprincipal3:hover {
+    background-color: #FFFFFF;
+    color: #91C788;
+}
+  
+.fondo3{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.fondo3.active{
+    visibility: visible;
+}
+.ventana3{
+    background: #DDFFBC;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+    border-radius: 15px;
+    font-family: "prata";
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+
+    transition: 1s ease all;
+    opacity: 0;
+
+
+}
+
+.cerrar-ventana3{
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+    text-align: right;
+
+    transition: 1s;
+}
+
+.cerrar-ventana3:hover{
+    color: red;
+    
+}
+
+.ventana3 h3{
+    font-size: 36px;
+    font-family: "prata";
+    margin-bottom: 50px;
+}
+
+
+.ventana3 form .formulario3 input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+    background: white;
+    border-radius: 10px;
+}
+
+.ventana3 form .submit3{
+    padding: 0px 50px;
+    height: 45px;
+    border-radius: 10px;
+    background: #91C788;
+    color: white;
+    font-family: "prata";
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    
+
+}
+.ventana3 form .submit3:hover{
+    background-color: #75db63;
+}
+
+.ventana3.active  {opacity: 1;}
+
+/*Borrar tabla*/ 
+
+.contenedor4 .botonprincipal4 {
+	width: 500px;
+	height: 100px;
+	line-height: 40px;
+	border: 1px solid #91C788;
+	color: #FFFFFF;
+	background: #91C788;
+	border-radius: 35px;
+	font-family: "prata";
+	font-size: 40px;
+	cursor: pointer;
+    transition: 1s;
+    margin-left: 150px;
+    position: relative;
+    top: 100px;
+    
+}
+
+.contenedor4 .botonprincipal4:hover {
+    background-color: #FFFFFF;
+    color: #91C788;
+}
+  
+
+.fondo4{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.fondo4.active{
+    visibility: visible;
+}
+.ventana4{
+    background: #DDFFBC;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+    border-radius: 15px;
+    font-family: "prata";
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+
+    transition: 1s ease all;
+    opacity: 0;
+
+
+}
+
+.cerrar-ventana4{
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+    text-align: right;
+
+    transition: 1s;
+}
+
+.cerrar-ventana4:hover{
+    color: red;
+    
+}
+
+.ventana4 h3{
+    font-size: 36px;
+    font-family: "prata";
+    margin-bottom: 50px;
+}
+
+
+.ventana4 form .formulario4 input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+    background: white;
+    border-radius: 10px;
+}
+
+.ventana4 form .submit4{
+    padding: 0px 50px;
+    height: 45px;
+    border-radius: 10px;
+    background: #91C788;
+    color: white;
+    font-family: "prata";
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    
+
+}
+.ventana4 form .submit4:hover{
+    background-color: #75db63;
+}
+
+.ventana4.active  {opacity: 1;}

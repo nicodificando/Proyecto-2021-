@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Apartamento
+        </title>
+        <link rel="stylesheet" href="apartamento.css">
+        <link rel="shortcut icon" href="C:\Users\cbas_\Desktop\Tareas\Sistemas\2021\Periodo 4\Proyecto-2021-\Logo sin fondo.png">
+    </head>
+    <body>
+        <header class="header">
+            <div class="containar">
+                <div class="logo">
+                    <img class="iconT" src="Logo en blanco.png">
+                    <h1>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤApartamentoㅤㅤ</h1>
+                </div>
+                
+        </header>
+        
+
+         <p>Bienvenido a la sección de apartamento</p>
+        
+         <div class="slider">
+            <ul>
+                <li><img src="C:\Users\cbas_\Desktop\Tareas\Sistemas\2021\Periodo 4\Proyecto-2021-\img1.jpg" ></li>
+                <li><img src="C:\Users\cbas_\Desktop\Tareas\Sistemas\2021\Periodo 4\Proyecto-2021-\img12.jpg" ></li>
+                <li><img src="C:\Users\cbas_\Desktop\Tareas\Sistemas\2021\Periodo 4\Proyecto-2021-\img3.jpg" ></li>
+                <li><img src="C:\Users\cbas_\Desktop\Tareas\Sistemas\2021\Periodo 4\Proyecto-2021-\img14.jpg" ></li>
+                <li><img src="C:\Users\cbas_\Desktop\Tareas\Sistemas\2021\Periodo 4\Proyecto-2021-\img5.jpg" ></li>
+            </ul>
+        </div>
+
+        <section id="contenedor">
+            
+            <a href="javascript:abrir()">Buscar apartamento</a> 
+            <br> 
+            
+        </section>
+        
+
+
+        <script>
+            
+            function cerrarTodo(){
+                document.getElementById("vent").style.display="none"
+                document.getElementById("cerrar").style.display="none"
+                document.getElementById("vent1").style.display="none"
+                document.getElementById("cerrar1").style.display="none"
+                document.getElementById("vent2").style.display="none"
+                document.getElementById("cerrar2").style.display="none"
+                document.getElementById("vent3").style.display="none"
+                document.getElementById("cerrar3").style.display="none"
+            }
+           </script>
+       
+        <div class="ventana" id="vent">
+            
+            <div id="cerrar" class="botonCerrar"><a href="javascript:cerrar()"><img src="error.png"></a></div>
+            <p>Buscar apartamento</p>    
+            <form name="formulario" method="get">
+                <label for="apto">Número Apartamento:</label>
+                <br>
+                <input type="text" id="apto">
+                
+                <br>
+
+               <label for="bloque">Bloque Apartamento:</label>
+               <select name="bloque" id="bloque">
+                   <option value="A">A</option>
+                   <option value="B">B</option>
+                   <option value="C">C</option> 
+                   <option value="D">D</option>
+                   <option value="E">E</option>
+                   <option value="F">F</option>
+                   <option value="G">G</option>
+                   <option value="H">H</option>
+               </select>
+    
+               <br>
+
+               <input type="submit">
+               <input type="button" name="cancelar" id="cancelar" value="Cancelar">
+            </form>
+        </div>
+        <div class="ventana" id="vent"></div>
+
+        <script>
+            function abrir(){
+                cerrarTodo()
+                document.getElementById("vent").style.display="block";
+                document.getElementById("cerrar").style.display="block";
+            }
+            function cerrar(){
+                document.getElementById("vent").style.display="none";
+                document.getElementById("cerrar").style.display="none";
+            }
+        </script>
+
+       <section id="contenedor">
+        
+         <a href="javascript:abrir1()">Modificar apartamento</a>
+         <br>
+       </section>
+
+       <div class="ventana" id="vent1">
+        <div id="cerrar1" class="botonCerrar"><a href="javascript:cerrar1()"><img src="error.png"></a></div>
+         <p>Modificar Apartamento</p>
+          <form name="formulario2" method="put">
+             <label for="apartamento">Número apartamento:</label>
+             <br>
+             <input type="text" id="apartamento">
+
+             <br>
+
+             <label for="nombre_propi">Nombre del nuevo propietario:</label>
+             <br>
+             <input type="text" id="nombre_propi">
+
+             <br>
+
+             <label for="num_propietario">Número Propietario:</label>
+             <br>
+             <input type="text" id="num_propietario">
+
+             <br>
+
+             <label for="co_propietario">Correo Propietario:</label>
+             <br>
+             <input type="text" id="co_propietario">
+
+             <br>
+
+             <label for="nombre_resid">Nombre del nuevo residente:</label>
+             <br>
+             <input type="text" id="nombre_resid">
+
+             <br>
+
+             <label for="Nnum_residente">Número Residente:</label>
+             <br>
+             <input type="text" id="Nnum_residente">
+
+             <br>
+
+             <label for="matricula">Nueva Matrícula:</label>
+             <br>
+             <input type="text" id="matricula">
+
+             <br>
+
+             <label for="vehículo">Placa Nuevo Vehículo:</label>
+             <br>
+             <input type="text" id="vehículo">
+
+             <br>
+
+             <input type="submit">
+             <input type="button" name="cancelar" id="cancelar" value="Cancelar">
+          </form>
+       </div>
+        <div class="ventana" id="vent1"></div>
+        
+        <script>
+            function abrir1(){
+                cerrarTodo()
+                document.getElementById("vent1").style.display="block";
+                document.getElementById("cerrar1").style.display="block";
+            }
+            function cerrar1(){
+                document.getElementById("vent1").style.display="none";
+                document.getElementById("cerrar1").style.display="none";
+            }
+        </script>
+
+       <section id="contenedor"> 
+        
+         <a href="javascript:abrir2()">Crear apartamento</a>
+         <br>
+      </section>
+
+      <div class="ventana" id="vent2">
+        <div id="cerrar2" class="botonCerrar"><a href="javascript:cerrar2()"><img src="error.png"></a></div>
+         <p>Crear Apartamento</p>
+          <form name="formulario3" method="post">
+             <label for="apartamento">Número apartamento</label>
+             <br>
+             <input type="text" id="apartamento">
+
+             <br>
+
+             <label for="matricula">Matrícula:</label>
+             <br>
+             <input type="text" id="matricula">
+
+             <br>
+
+             <label for="propietario">Nombre Propietario:</label>
+             <br>
+             <input type="text" id="propietario">
+
+             <br>
+ 
+             <label for="num_propietario">Número Propietario:</label>
+             <br>
+             <input type="text" id="num_propietario">
+
+             <br>
+
+             <label for="correo_propietario">Correo Propietario:</label>
+             <br>
+             <input type="text" id="correo_propietario">
+
+             <br>
+
+             <label for="residente">Nombre residente:</label>
+             <br>
+             <input type="text" id="residente">
+
+             <br>
+
+             <label for="num_residente">Número Residente:</label>
+             <br>
+             <input type="text" id="num_residente">
+
+             <br>
+
+             <label for="correo_residente">Correo Residente:</label>
+             <br>
+             <input type="text" id="correo_residente">
+
+             <br>
+
+             <input type="submit">
+             <input type="button" name="cancelar" id="cancelar" value="Cancelar">
+          </form>
+       </div>
+        <div class="ventana" id="vent2"></div>
+
+        <script>
+            function abrir2(){
+                cerrarTodo()
+                document.getElementById("vent2").style.display="block";
+                document.getElementById("cerrar2").style.display="block";
+            }
+            function cerrar2(){
+                document.getElementById("vent2").style.display="none";
+                document.getElementById("cerrar2").style.display="none";
+            }
+        </script>
+
+       <section id="contenedor">
+        
+           <a href="javascript:abrir3()">Borrar apartamento</a>
+           <br>
+       </section>
+
+       <div class="ventana" id="vent3">
+        <div id="cerrar3" class="botonCerrar"><a href="javascript:cerrar3()"><img src="error.png"></a></div>
+          <p>Borrar Apartamento</p>
+          <form name="formulario4" method="delete">
+            <label for="aparta.">Número Apartamento:</label>
+            <br>
+            <input type="text">
+
+            <br>
+
+            <label for="bloq">Seleccione el bloque:</label>
+            <select name="bloque" id="bloque">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option> 
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                <option value="H">H</option>
+            </select>
+
+            <p>¿Está seguro que desea eliminar toda la información contenida de dicho apartamento?</p>
+
+            <input type="button" name="si" id="si" value="Sí">
+            <input type="button" name="no" id="no" value="No">
+          </form>
+        <div id="vent3"></div>
+
+        <script>
+            function abrir3(){
+                cerrarTodo()
+                document.getElementById("vent3").style.display="block";
+                document.getElementById("cerrar3").style.display="block";
+            }
+            function cerrar3(){
+                document.getElementById("vent3").style.display="none";
+                document.getElementById("cerrar3").style.display="none";
+            }
+        </script>
+
+        </body>
+
+</html>
