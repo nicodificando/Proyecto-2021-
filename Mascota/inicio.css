@@ -1,0 +1,75 @@
+/* Tipografía para texto cuerpo */
+@font-face {
+  font-family :  "Shippori Antique" ;
+  src :  url ( "https://fonts.google.com/specimen/Shippori+Antique?category=Serif,Sans+Serif#standard-styles" );
+}
+
+/* Tipografia para titulos */
+@font-face {
+    font-family:  "Prata" ;
+    src :  url ( "https://fonts.google.com/specimen/Prata?preview.text_type=custom&query=pra" );
+  }
+
+/* Tipografia para otros, o para algun texto especial */
+@font-face {
+    font-family:  "Presione Start 2P" ;
+    src :  url ( "https://fonts.google.com/specimen/Press+Start+2P?preview.text_type=custom&query=Press+Start+2P" );
+  }
+
+h1{
+    color: #52734D;
+    text-align: center;
+    font-family: "Prata";
+    font-size: 55px;
+    margin-top: 50px;
+    src: url("Prata");
+}
+
+body{
+    background-color: #DDFFBC;
+}
+
+img{
+  margin-top: 0px;
+  width: 6%;
+}
+
+table{
+  width: 50%;
+	height: 300px;
+  align-content: center;
+  border-radius: 5px;
+  padding: 40px 5px;
+  color: #6e1616;
+  margin: 0px;
+  margin-left: 250px;
+}
+
+  h2{
+    color: #030c01;
+    text-align: center;
+    font-family: "Presione Start 2P";
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-bottom:0%;
+    margin-top: 0%;
+    src: url("Presione Start 2P");
+  }
+
+div{
+  text-align: center;
+  align-content: center;
+}
+
+footer {
+    position:absolute;
+    position:static;
+    left: 10;
+    bottom: 20;
+    width: 102%;
+    background-color: #91C788;
+    color: white;
+    text-align: center;
+  }
+

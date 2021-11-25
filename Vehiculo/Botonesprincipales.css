@@ -1,0 +1,16 @@
+body{
+    background-color:#DDFFBC;
+    font-family: Verdana;
+}
+
+form {
+    width: 500px;
+    background: #52734D;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: Verdana;
+    color: black;
+    box-shadow: 7px  10px  20px #000;
+}

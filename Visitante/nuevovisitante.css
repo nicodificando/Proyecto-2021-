@@ -1,0 +1,57 @@
+*{
+background:#C5F9F8 ;
+margin: 0 auto;
+color: black;
+}
+
+h1{
+    color: #52734D;
+    text-align: center;
+    font-family: "Presione Start 2P";
+    font-size: 55px;
+    margin-top: 50px;
+    src: url("Presione Start 2P");
+}
+
+body{
+    background-color: #DDFFBC;
+}
+
+p{
+    text-align: center;
+}
+
+input{
+    background-color: #ffffff;
+    width: 30%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #5e685d;    
+    color: #52734D (32, 30, 30);
+    margin-left: 10px;  
+}
+
+div{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
+
+footer {
+    position:absolute;
+    position:static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #91C788;
+    color: white;
+    text-align: center;
+}
+
+img{
+      margin-top: 0px;
+      width: 6%;
+}
