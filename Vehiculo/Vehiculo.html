@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> pagina eliminar </title>
+</head>
+<body>
+    <link rel="stylesheet" href="vehiculo2.css"> 
+  <selection class="form-register">
+    <h1> Formulario para eliminar vehiculo</h1>
+    <p>A continuacion va a completar un formulario para eliminar el vehiculo requerido</p>
+    <form action="../form-result.php" target="_blank">
+
+    <input class="controls" type="text" name="nombrecompleto" id="nombrecompleto" placeholder="Nombre del propetario">
+    <input class="controls" type="text" name="numero" id="numero" placeholder="Numero de la placa">
+    <input class="controls" type="text" name="kilometraje" id="kilometraje" placeholder="Kilometraje">
+    <input class="controls" type="text" name="modelo" id="modelo" placeholder="Modelo">
+    <input class="botons" type="submit">
+   
+		  <p>Para nosotros es muy importante saber el motivo por el cual quiere eliminar el vehiculo de nuestros servicios a continuacion una lista de posibles acotecimientos en nuestro parqueadero</p>
+<select name="lista">
+   <option value="1">No se siente comodo con el parqueadero</option> 
+   <option value="2">Tuvo algún problema con el parqueadero</option> 
+   <option value="3">Otro motivo</option>
+</select>
+
+<label for="documento">Selecciona el tipo de documento</label>
+<input type="email" multiple name="emails" id="emails" list="drawfdocumento" required size="64">
+	<datalist id="drawfdocumento">
+  <option value="Cedula de Ciudadania"></option>
+  <option value="Cedula de Extrangeria"></option>
+  <option value="Pasaporte"></option>
+
+	<br><br>
+
+    <label for="mensaje" class="form-label">Escriba algun otro motivo por el cual desee sacar su vehiculo del parqueadero</label>
+    <textarea id="mensaje" class="form-textarea" placeholder="Aqui escriba su mensaje"></textarea>
+
+    <input type="submit" class="btn-submit" value="Enviar consulta">
+</selection>
+</form>  
+</datalist>
+  
+</select>
+
+  </section>
+
+</body>
+</html>
