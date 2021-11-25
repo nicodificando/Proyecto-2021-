@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #afdaa7;
+    background-image: url("https://i.imgur.com/GgDLmaQ.png");
+}
+
+h3{
+    font-family: "Shippori Antique";
+    src: url("https://fonts.google.com/specimen/Shippori+Antique?category=Serif,Sans+Serif#standard-styles");
+    font-size:  24px;
+    color: #52734D;
+
+}
+#center{
+    text-align:center;
+}
+.imagen{
+    width:320px;
+    height: 569px;
+}
+#deco{
+    width: 400px;
+    background: #91C788;
+    padding: 30px;
+    margin-top: 100px;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #52734D;
+}
